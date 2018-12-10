@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/Java.js"></script>
+<link rel="stylesheet" href="CSS/Style.css">
+</head>
+	
+<body>
+<img id="logo" src="Assets\sign.png" width="100" height="100" alt=""/>
+<img id="Owl" src="Assets\shop.png" width="100" height="100" alt=""/>
+
+<nav>
+<ul>
+        <li><a href="Bio.html">Biography</a></li>
+        <li><a href="Music.html">Music</a></li>
+        <li><a href="Videos.html">Videos</a></li>
+        <li><a href="TourDates.html">Tour Dates</a></li>
+    </ul>
+</nav>
+    <br>
+
+<!--Image rollover container-->
+<div class="container">
+    <div class="myslides">
+        <div class="numbertext">1 / 3</div>
+        <img src="Assets/drake-tour-banner-v2.jpg" style="width:100%" alt=""/>
+    </div>
+    <div class ="myslides">
+        <div class="numbertext">2 / 3</div>
+        <img src="Assets/bioimg.jpg" style="width:100%" alt="">
+    </div>
+    <div class="myslides">
+        <div class="numbertext">3 / 3</div>
+        <img src="Assets/take_care-250x250.jpg" style="width:100%" alt="">
+    </div>
+<!--Next and Previous Buttons-->
+    <a> class"prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a> class"next" onclick="plusSlides(1)">&#10095;</a>
+<!--Image text-->
+    <div class="caption-container">
+        <p id="caption"></p>
+    </div>
+<!--Thumbnail-->
+    <div class="row">
+        <div class="column">
+            <img class="demo cursor" src="Assets/drake-tour-banner-v2.jpg" style="width:100%" onclick="currentSlide(1)" alt"Tour Dates"/>
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="Assets/bioimg.jpg" style="width:100%" onclick="currentSlide(2)" alt"About the Artist"/>
+        </div>
+        <div class="column">
+             <img class="demo cursor" src="Assets/" style="width:100%" onclick="currentSlide(3)" alt"Music">
+             </div>
+    </div>
+    </div>
+    
+</body>
+</html>

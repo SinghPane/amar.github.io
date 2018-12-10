@@ -1,0 +1,188 @@
+body {
+    background-color: White;
+}
+
+	h1 {
+		font-family: acumin-pro, sans-serif;
+		font-style: normal;
+		font-weight: 400;
+		font-size:28px;
+		color: Black;
+		text-align: center;
+	}
+.p {
+    font-family: acumin-pro, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+    font-size: 20px;
+	color:black;
+}
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.li {
+    float: left;
+}
+
+.li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.li a: hover {
+    background-color: #111;
+    }
+
+	
+    .Owl{
+    position: absolute;
+    right: 100%;
+	width: 300px;
+    font-size: 18px;
+	display: block;
+	padding:10px;  
+        
+    }
+    
+    
+    
+
+
+text {
+  color: white;
+  font-size: 20px;
+  font-family:Acumin Pro;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.Bioimg {
+	height: 60%;
+	Width: 50%;
+}
+/*Index Slideshow*/
+*    {
+    box-sizing:border-box;
+}
+    img{
+        vertical-align:middle;
+    }
+    /*Image container position*/
+    .container{
+        position:relative;
+    }
+    /*Hide the images*/
+    .myslides{
+        display:none;
+    }
+    /*Adds hover pointer*/
+    .cursor{
+        cursor:pointer;
+    }
+    /*Next and previous buttons*/
+    .prev,
+    .next{
+        cursor: pointer;
+        position:absolute;
+        top: 40%;
+        width: auto;
+        padding: 16px;
+        margin-top:-50px;
+        color:white;
+        font-weight:bold;
+        font-size:20px;
+        border-radius: 0 3px 3px 0;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+    }
+    /*next position*/
+    .next{
+        right:0;
+        border-radius: 3px 0 0 3px;
+    }
+    
+    .prev:hover,
+    .next:hover{
+        background-color:rgba(0,0,0,0.8);
+    }
+    /*(1/3)*/
+    .numbertext{
+        color:#f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+    /*Container for image text*/
+    .caption-container{
+        text-align:center;
+        background-color:#222;
+        padding: 2px 16px;
+        color: white;
+    }
+    .row:after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .column{
+        float: left;
+        width:16.66%;
+    }
+    /*Transparency*/
+    .demo{
+        opaity:0.6;
+    }
+    .active,
+    .demo:hover{
+        opacity: 1;
+    }
+    
+    
+    
+    
+    
+.mySlidesfade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+<iframe align="middle">
+
+
+	
+	
+	
